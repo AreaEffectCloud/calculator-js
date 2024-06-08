@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700;900&display=swap");
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background: linear-gradient(320deg, #eb92be, #ffef78);
+  display: flex;
+  font-family: "Noto Sans JP", "sans-serif";
+  font-display: swap;
+  height: inherit;
+  justify-content: center;
+}
+
+main {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  flex-basis: 400px;
+  height: 540px;
+  padding: 20px 35px;
+}
+
+img {
+  padding-top: 7.5px;
+  width: 50%;
+}
+
+.screen {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  font-size: 35px;
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 20px;
+  text-align: right;
+  width: 326px;
+}
+
+.calc-button {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(35, 35, 35, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  flex-basis: 20%;
+  font-family: inherit;
+  font-size: 24px;
+  height: 65px;
+}
+.calc-button:hover {
+  background-color: inherit;
+}
+.calc-button:active {
+  background-color: #ffef78;
+}
+.calc-button:last-child {
+  color: #fff;
+  background: #d72;
+  font-size: 28px;
+}
+.calc-button:last-child:hover {
+  color: inherit;
+  background-color: inherit;
+}
+.calc-button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.double {
+  flex-basis: 47%;
+}
+
+.triple {
+  flex-basis: 72%;
+}/*# sourceMappingURL=style.css.map */
